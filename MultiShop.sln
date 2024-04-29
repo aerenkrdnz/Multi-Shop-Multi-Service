@@ -7,12 +7,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{E0324FC3-C3BA-41E1-9A15-1CB8D260C02E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Catalog", "Services\Catalog\MultiShop.Catalog\MultiShop.Catalog.csproj", "{0AE3BC7D-2B33-461C-BB17-45F4F04EA184}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{B711FD8E-9626-436D-A5F3-7C895D4E57E5}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AE3BC7D-2B33-461C-BB17-45F4F04EA184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE3BC7D-2B33-461C-BB17-45F4F04EA184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE3BC7D-2B33-461C-BB17-45F4F04EA184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE3BC7D-2B33-461C-BB17-45F4F04EA184}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E0324FC3-C3BA-41E1-9A15-1CB8D260C02E} = {B555C79D-377F-4713-98CD-B77FBEF77944}
+		{0AE3BC7D-2B33-461C-BB17-45F4F04EA184} = {E0324FC3-C3BA-41E1-9A15-1CB8D260C02E}
+		{B711FD8E-9626-436D-A5F3-7C895D4E57E5} = {B555C79D-377F-4713-98CD-B77FBEF77944}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB752DAA-1A2E-4888-907D-88E477EE2FCA}
