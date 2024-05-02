@@ -1,0 +1,4 @@
+--Identity => https://localhost:5001
+--Catalog => https://localhost:7250
+--Discount => https://localhost:7251
+--Order => https://localhost:7252
