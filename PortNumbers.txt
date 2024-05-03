@@ -3,3 +3,4 @@
 --Discount => https://localhost:7251
 --Order => https://localhost:7252
 --Cargo => https://localhost:7253
+--Basket => https://localhost:7254
